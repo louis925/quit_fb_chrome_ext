@@ -9,3 +9,6 @@ This chrome extension closes all the facebook tabs that has been open for over a
 * choose this folder in the dialog,
 
 then it will be run in the background
+
+Original created by x4bass
+Modified by louis925

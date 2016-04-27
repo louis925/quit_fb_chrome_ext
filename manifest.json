@@ -1,15 +1,20 @@
 {
   "manifest_version": 2,
-  "name": "quitFB",
-  "description": "",
-  "version": "1.0",
+  "name": "Quit FB",
+  "description": "Quit Facebook after 5 minutes.",
+  "version": "2.0",
+  "author": "x4base, Louis Yang",
+  "homepage_url": "https://github.com/x4base/quit_fb_chrome_ext",
   "minimum_chrome_version": "18",
+  "icons": {"64": "icon.png"},
   "permissions": [
-    "tabs"
+    "tabs",
+    "storage"
   ],
   "background": {
-    "scripts": [
-      "background.js"
-    ]
-  }
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  }  
 }
